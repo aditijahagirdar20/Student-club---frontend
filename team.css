@@ -1,0 +1,259 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    background-image: linear-gradient(to bottom, #f4f4f9, #e0e0e0); /* Subtle gradient background */
+    background-attachment: fixed;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2b2d42;
+    color: #ffffff;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    color: #ef233c;
+}
+
+.heading{
+    padding:30px;
+    font-size: 60px;
+}
+
+/* Container for Team Section */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 60px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 1200px;
+    z-index: 10;
+}
+
+/* Header Styling */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #2b2d42;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;  /* Adding spacing below "Our Team" */
+}
+
+/* Team Lead Styling */
+.team-lead {
+    background-color: #2b2d42; /* Dark background for team lead */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.team-lead:hover {
+    background-color: #ef233c; /* Hover color for team lead */
+}
+
+/* Team Member Styling */
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.member:last-child {
+    border-bottom: none;
+}
+
+.member:hover {
+    transform: translateX(5px);
+}
+
+/* Team Photo Styling */
+.team-photo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.team-photo:hover {
+    transform: scale(1.1);
+}
+
+/* Team Info Styling */
+.team-info {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.team-info h3 {
+    font-size: 1.5rem;
+    color: #2b2d42;
+    margin-bottom: 10px;
+}
+
+.team-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.team-info a {
+    color:#555; /* Initial color for LinkedIn and GitHub */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* LinkedIn and GitHub Hover Fix */
+.team-info a.linkedin:hover,
+.team-info a.github:hover {
+    color: #0066cc; /* Blue color for LinkedIn and GitHub links on hover */
+}
+
+/* General Paragraph Styling */
+p {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2b2d42;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    z-index: 10;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ef233c;
+    text-decoration: underline;
+}
+
+footer .social-icons {
+    margin-top: 20px;
+}
+
+footer .social-icons a {
+    margin: 0 12px;
+    font-size: 1.8em;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #ef233c;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .member {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .team-photo {
+        margin: 0 0 10px 0;
+    }
+
+    .team-info {
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+
+    footer .social-icons a {
+        font-size: 1.5em;
+    }
+}

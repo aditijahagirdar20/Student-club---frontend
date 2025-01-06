@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Page</title>
+    <link rel="stylesheet" href="membership.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Club Name</h1>
+        <ul class="nav-links">
+            <li><a href="#home.html">Home</a></li>
+            <li><a href="#team.html">Team</a></li>
+            <li><a href="#event.html">Events</a></li>
+            <li><a href="#about.html">About</a></li>
+            <li><a href="#membership.html">Membership</a></li>
+
+        </ul>
+    </div>
+
+    <!-- Membership Section -->
+    <div class="membership-container">
+        <h1 class="membership-heading">Become a Member</h1>
+
+        <!-- Membership Form -->
+        <div class="form-container" id="membership-form-container">
+            <form id="membership-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="usn">USN</label>
+                <input type="text" id="usn" placeholder="Enter your USN" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+
+                <label for="repassword">Re-enter Password</label>
+                <input type="password" id="repassword" placeholder="Re-enter your password" required>
+
+                <button type="submit" id="submit-btn">Submit</button>
+                <p id="thank-you-msg" style="display: none;">Thank you for applying! Please pay ₹300 at the Club Office,
+                    2nd Floor, Golden Jubilee Bhavan.</p>
+            </form>
+
+            <div class="toggle-section">
+                <p>Already a member?</p>
+                <a href="#" id="toggle-to-renew">Click here to renew your membership.</a>
+            </div>
+        </div>
+
+        <!-- Renewal Form -->
+        <div class="renewal-form-container" id="renewal-form" style="display: none;">
+            <h2 class="renewal-heading">Renew Membership</h2>
+            <form id="renew-form">
+                <label for="renew-usn">USN</label>
+                <input type="text" id="renew-usn" placeholder="Enter your USN" required>
+
+                <label for="renew-password">Password</label>
+                <input type="password" id="renew-password" placeholder="Enter your password" required>
+
+                <button type="submit">Renew Membership</button>
+                <p id="renew-thank-you-msg" style="display: none;">Thank you for renewing! Please pay ₹50 at the Club
+                    Office, 2nd Floor, Golden Jubilee Bhavan.</p>
+            </form>
+
+            <div class="toggle-section">
+                <p>Want to be a member?</p>
+                <a href="#" id="toggle-to-join">Click here to apply for membership.</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2025 Club Name. All rights reserved.</p>
+        <p>Follow us on <a href="#" class="footer-link">Instagram</a> and <a href="#" class="footer-link">Facebook</a>.
+        </p>
+    </div>
+
+    <script src="membership.js"></script>
+</body>
+
+</html>
