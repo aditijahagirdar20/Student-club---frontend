@@ -34,7 +34,7 @@ body {
 .events-heading {
     text-align: center;
     margin-top: 70px;
-    font-size: 32px;
+    font-size: 40px;
     color: #efefef;
 }
 
@@ -57,8 +57,8 @@ body {
 }
 
 .event-image {
-    width: 60%; /* Reduced width for smaller images */
-    height: auto;
+    width: 30%; /* Reduced width for smaller images */
+    height: 30%;
     border-radius: 8px;
     margin-bottom: 10px;
     display: block;
@@ -86,4 +86,9 @@ body {
 
 .hidden-content p {
     color: #bbb;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
 }
