@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary-color: #9d80fe;    
     --secondary-color: #e4f5ff; 
@@ -26,11 +27,22 @@ body {
 }
 
 
+=======
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #fff;
+}
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     padding: 0.5rem 5%;
     background: rgba(157, 128, 254, 0.8);
     backdrop-filter: blur(10px);
@@ -256,3 +268,86 @@ body {
 }
 
 
+=======
+    padding: 10px 20px;
+    background-color: #3c44b1;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.events-heading {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    color: #efefef;
+}
+
+
+.events-section {
+    margin: 20px;
+}
+
+.event-card {
+    background: #27293d;
+    padding: 20px;
+    margin: 70px 50px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    color: #ccc;
+}
+
+.event-card h3 {
+    color: #f4f4f4;
+}
+
+.event-image {
+    width: 30%; /* Reduced width for smaller images */
+    height: 30%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centering the images */
+}
+
+.see-more-btn {
+    background-color: #3c44b1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.see-more-btn:hover {
+    background-color: #2a3188;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content p {
+    color: #bbb;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary-color: #9d80fe;
     --secondary-color: #e4f5ff;
@@ -465,6 +466,9 @@ footer a {
 
 
 /* 
+=======
+/* General Styles */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -607,7 +611,11 @@ iframe {
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Contact Section Adjustments for Map and Instagram */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 .contact-form {
     margin-top: 40px;
     padding: 20px;
@@ -653,6 +661,10 @@ iframe {
     background-color: #2a3188;
 }
 
+<<<<<<< HEAD
+=======
+/* Instagram and Map Alignment */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 .instagram, .map-container {
     margin-top: 40px;
     text-align: center;
@@ -683,7 +695,11 @@ iframe {
     color: #fff;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Map Container Style */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 .map-container {
     display: flex;
     justify-content: center;
@@ -697,7 +713,11 @@ iframe {
     border: none;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Responsiveness */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 @media screen and (max-width: 768px) {
     .contact-info {
         flex-direction: column;
@@ -719,4 +739,18 @@ iframe {
     .map-container iframe {
         width: 90%;
     }
+<<<<<<< HEAD
 } */
+=======
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.social-icon{
+    width: 30px;
+    height: 30px;
+}
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary-color: #9d80fe;    
     --secondary-color: #e4f5ff; 
@@ -9,12 +10,16 @@
     --glass-border: rgba(255, 255, 255, 0.18);
 }
 
+=======
+/* General Reset */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
     font-family: 'Inter', Arial, sans-serif;
     background-color: var(--background-color);
@@ -350,6 +355,13 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
     background-image: linear-gradient(to bottom, #f4f4f9, #e0e0e0);
+=======
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    background-image: linear-gradient(to bottom, #f4f4f9, #e0e0e0); /* Subtle gradient background */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
     background-attachment: fixed;
     color: #333;
     padding: 0;
@@ -396,6 +408,10 @@ body {
     font-size: 60px;
 }
 
+<<<<<<< HEAD
+=======
+/* Container for Team Section */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 .container {
     width: 80%;
     margin: 0 auto;
@@ -406,6 +422,10 @@ body {
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+/* Section Styling */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 section {
     margin-bottom: 60px;
     padding: 30px;
@@ -418,19 +438,32 @@ section {
     z-index: 10;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Header Styling */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 h2 {
     font-size: 2.5rem;
     margin-bottom: 25px;
     color: #2b2d42;
     text-align: center;
     font-weight: bold;
+<<<<<<< HEAD
     padding-bottom: 20px;  
 }
 
 
 .team-lead {
     background-color: #2b2d42; 
+=======
+    padding-bottom: 20px;  /* Adding spacing below "Our Team" */
+}
+
+/* Team Lead Styling */
+.team-lead {
+    background-color: #2b2d42; /* Dark background for team lead */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -445,10 +478,17 @@ h2 {
 }
 
 .team-lead:hover {
+<<<<<<< HEAD
     background-color: #ef233c; 
 }
 
 
+=======
+    background-color: #ef233c; /* Hover color for team lead */
+}
+
+/* Team Member Styling */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 .member {
     display: flex;
     align-items: center;
@@ -467,7 +507,11 @@ h2 {
     transform: translateX(5px);
 }
 
+<<<<<<< HEAD
 
+=======
+/* Team Photo Styling */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 .team-photo {
     width: 90px;
     height: 90px;
@@ -481,7 +525,11 @@ h2 {
     transform: scale(1.1);
 }
 
+<<<<<<< HEAD
 
+=======
+/* Team Info Styling */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 .team-info {
     flex-grow: 1;
     margin-left: 15px;
@@ -500,24 +548,42 @@ h2 {
 }
 
 .team-info a {
+<<<<<<< HEAD
     color:#555; 
+=======
+    color:#555; /* Initial color for LinkedIn and GitHub */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
+<<<<<<< HEAD
 .team-info a.linkedin:hover,
 .team-info a.github:hover {
     color: #0066cc; 
 }
 
+=======
+/* LinkedIn and GitHub Hover Fix */
+.team-info a.linkedin:hover,
+.team-info a.github:hover {
+    color: #0066cc; /* Blue color for LinkedIn and GitHub links on hover */
+}
+
+/* General Paragraph Styling */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 p {
     margin: 20px 0;
     font-size: 1.1em;
     color: #555;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Footer Styling */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 footer {
     background-color: #2b2d42;
     color: #fff;
@@ -565,7 +631,11 @@ footer .social-icons a:hover {
     color: #ef233c;
 }
 
+<<<<<<< HEAD
 
+=======
+/* Responsive Styling */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 @media (max-width: 768px) {
     .container {
         width: 90%;
@@ -592,4 +662,8 @@ footer .social-icons a:hover {
     footer .social-icons a {
         font-size: 1.5em;
     }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c

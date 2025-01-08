@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary-color: #9d80fe;
     --secondary-color: #e4f5ff;
@@ -24,10 +25,23 @@ body {
 
 
 
+=======
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #fff;
+}
+
+/* Navbar */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     padding: 0.5rem 5%;
     background: rgba(157, 128, 254, 0.8);
     backdrop-filter: blur(10px);
@@ -142,19 +156,83 @@ body {
     max-width: 500px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+=======
+    padding: 15px 30px;
+    background-color: #3c44b1;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Membership Section */
+.membership-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #27293d;
+}
+
+.membership-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #efefef;
+}
+
+/* Form Container */
+.form-container,
+.renewal-form-container {
+    background-color: #1e1e2f;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 }
 
 .form-container label,
 .renewal-form-container label {
     display: block;
+<<<<<<< HEAD
     margin-bottom: 0.5rem;
     font-size: 1rem;
     color: var(--text-color);
     text-align: left;
+=======
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #bbb;
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 }
 
 .form-container input,
 .renewal-form-container input {
+<<<<<<< HEAD
     width: 90%;
     padding: 0.75rem;
     
@@ -171,10 +249,21 @@ body {
 .renewal-form-container input:focus {
     outline: none;
     border-color: var(--primary-color);
+=======
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #1e1e2f;
+    color: #fff;
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 }
 
 .form-container button,
 .renewal-form-container button {
+<<<<<<< HEAD
     background-color: var(--primary-color);
     color: var(--white);
     border: none;
@@ -183,10 +272,20 @@ body {
     font-size: 1.1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+=======
+    background-color: #3c44b1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 }
 
 .form-container button:hover,
 .renewal-form-container button:hover {
+<<<<<<< HEAD
     background-color: var(--accent-color);
     color: var(--text-color);
 }
@@ -213,10 +312,40 @@ body {
     margin-top: 1.5rem;
     font-size: 1.2rem;
     color: var(--primary-color);
+=======
+    background-color: #2a3188;
+}
+
+/* Toggle Section */
+.toggle-section {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.toggle-section a {
+    color: #3c44b1;
+    text-decoration: none;
+}
+
+.toggle-section a:hover {
+    text-decoration: underline;
+}
+
+/* Thank You Message */
+#thank-you-msg,
+#renew-thank-you-msg {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3c44b1;
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
     font-weight: bold;
     display: none;
 }
 
+<<<<<<< HEAD
+=======
+/* Renewal Form Visibility */
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
 #renewal-form {
     display: none;
 }
@@ -225,6 +354,7 @@ body {
     display: block;
 }
 
+<<<<<<< HEAD
 footer {
     background: linear-gradient(135deg, var(--primary-color), #8465d4);
     color: var(--white);
@@ -309,11 +439,23 @@ footer a {
 
     .membership-heading {
         font-size: 2.5rem;
+=======
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 5px 0;
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
     }
 
     .form-container,
     .renewal-form-container {
         max-width: 90%;
+<<<<<<< HEAD
         padding: 1.5rem;
     }
 }
@@ -336,3 +478,7 @@ footer a {
 }
 
 
+=======
+    }
+}
+>>>>>>> 07a7428286c8d67de12933ccff1a6f403cf85b6c
